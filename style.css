@@ -1,0 +1,63 @@
+
+    .proyecto-post img {
+        width: 100%; /* Ajusta el ancho al 100% del contenedor */
+        height: 200px; /* Define una altura fija para un tamaño "mediano" */
+        object-fit: cover; /* Ajusta la imagen sin distorsionarla */
+    }
+
+    .social-icons {
+        margin-top: 15px;
+      }
+      
+      .social-icons a {
+        display: block;
+        color: #000;
+        font-size: 18px;
+        margin-bottom: 10px;
+        text-decoration: none;
+      }
+      
+      .social-icons i {
+        font-size: 24px;
+        margin-right: 8px;
+        vertical-align: middle;
+      }
+      
+      .social-icons a:hover {
+        color: #007bb5; /* Color de hover */
+      }
+      
+      .social-icons span {
+        vertical-align: middle;
+      }
+      .img-hover img {
+        width: 100%; /* Se ajusta al 100% del ancho del contenedor */
+        height: 250px; /* Altura fija para que todas las imágenes tengan el mismo tamaño */
+        object-fit: cover; /* Corta la imagen para que se ajuste a las dimensiones */
+      }
+      
+      .img-hover {
+        overflow: hidden;
+      }
+      
+      @media (min-width: 992px) {
+        .visible-lg {
+          display: block;
+        }
+        .hidden-lg {
+          display: none;
+        }
+      }
+      
+      @media (max-width: 991px) {
+        .visible-lg {
+          display: none;
+        }
+        .hidden-lg {
+          display: block;
+        }
+      }
+      
+      
+      
+      
